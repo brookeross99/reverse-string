@@ -1,5 +1,8 @@
 function reverseString(str) {
-  // type your code here
+  const splitLetters=(`${str}`).split()
+  const returnReverse=splitLetters.reverse()
+
+  return returnReverse
 }
 
 if (require.main === module) {
